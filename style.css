@@ -63,14 +63,17 @@ nav img{
    transform: translate(-50%, -50%);
    text-align: center;
 }
+
 .text-box h1{
     font-size: 62px;
-
+    /* color: black; */
 }
+
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
-    color: #fff;
+    /* color: black; */
+    font-size: 20px;
 }
 .hero-btn{
     display: inline-block;
@@ -89,19 +92,32 @@ nav img{
     background: #f44336;
     transition: 1s;
 }
-nav.fa{
+.fart{
     display: none;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 600px;
 }
 @media(max-width: 300px){
     .text-box h1{
         font-size: 20px;
     
     } 
+    .icons{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        }
     .nav-links ul li{
       display: block;  
     }
     .nav-links{
-        position: absolute;
         background: #f44336;
         height: 100vh;
         width: 200px;
@@ -112,7 +128,7 @@ nav.fa{
         transition: 1s;
 
     }
-    nav.fa{
+    .fart{
         display: block;
         color: #fff;
         margin: 10px;
@@ -337,14 +353,99 @@ padding: 18px 0;
 }
 
 
+/*----------------- page About ----------------*/
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .header1{
+        background-color: black; 
+        min-height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    
+    }
+     .imge{
+        width: 40px;
+        height: 40px;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    nav img{
+        width: 150px;
+    } 
+    /* -----course---- */
+    .header3{
+        background-color: black;
+        min-height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
 
+    }
+    /*--------- page blog --------- */
 
+    .header2{
+        background-color: black;
+        min-height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
 
+    }
 
+    .texe{  
+        text-align: center;
+     }
 
+/* contact */
+.header4{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 
+}
+.footr{
+    display: flex;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.foo{
+    
+    background-color: black;
+    border: none ;
 
-
+}
+.foo h2{
+    color: white;
+}
+.foo p{
+    color: white;
+}
+.foo h3{
+    color: white;
+}
+.form{
+    border: 1px 20px 50px solid black;
+}
 
 /* header{
     display: flex;
