@@ -462,3 +462,141 @@ header nav{
     display: flex;
     justify-content: space-between;
 } */
+
+
+
+/*---------------- contact ------------ */
+
+* {
+    box-sizing: border-box; 
+ }
+ .D{
+     display: flex;  
+     padding: 50px;  
+     background-color: rgb(236, 82, 10);
+     align-items: center;
+     justify-content: center;
+  }
+  .D img{
+    max-width: 100%;
+  }
+  body{
+    font-size: 15px;
+    color: #999;
+  }
+ .A{
+    display: flex;
+ }
+  .span{
+      /* padding-left: 200px;  */
+    background-color:#fff;
+    border: 2px solid aliceblue;
+    padding: 50px;
+  }
+ .A h3{
+    color:darkslateblue;
+    
+     padding: 15px 15px;
+     display: inline-block;
+     font-size: 25px;
+     border: 1px solid #dad8e4;
+     margin-bottom: 30px;
+     margin: 0;
+     margin-top: 60px;
+  }
+  .G{
+    padding-left: 30px;  
+  }
+  .vert{
+     color:darkslateblue;
+     margin-top: 50px;
+    font-size: 50px;
+  }
+  .G p{
+    font-size: 20px;
+    color: #6d7f52;
+    /* text-align: center; */
+    margin-bottom: 26px;
+ margin-top: 50px;
+  }
+  .G i{
+     padding-top: 25px;
+     margin-left: 40px;
+  }
+  .F{
+        padding-left: 90PX;  
+  }
+  .form-control{
+     height: 37px;
+     border: none;
+     border-bottom: 2px solid #e6e6e6;
+      /* width: 100%; */
+     color: #666;
+ padding-top: 20px;
+  }
+  input{
+    font-size: 15px;
+    margin-left: 40px;
+  }
+  .erreur1{
+    margin-left: 40px;
+  }
+  .erreur2{
+    margin-left: 40px;
+  }
+  .erreur3{
+    margin-left: 40px;
+  }
+  .erreur4{
+    margin-left: 40px;
+  }
+  .erreur5{
+    margin-left: 40px;
+  }
+  .erreur6{
+    margin-left: 40px;
+  }
+  .input-control{
+    display: flex;
+    padding: 0px;
+  }
+ 
+  .E{
+     box-shadow: 0 0 0 0;
+     outline: 0;
+     border: none;
+     border-bottom: 2px solid black;
+  }
+  .S{
+    padding-top: 70px;
+ }
+  
+ @media all and (max-width: 300px) {
+  .A{
+     display: flex !important; 
+     /* background-color: #6d7f52; */
+     flex-direction: column ;
+  }
+  .D img{
+     width: 100%;
+  }
+}
+@media all and (max-width: 300px){
+   .G p{
+      font-size: 20px;
+      /* margin-right: 200px; */
+   }
+   h3{
+     display: flex;
+     flex-direction:column;
+   }
+   .G{
+      padding-left: 50px;
+   }
+   .violet{
+      margin-left: 200px;
+   }
+   .img{
+      width: 100%;
+   }
+}
